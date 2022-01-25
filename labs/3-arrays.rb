@@ -14,3 +14,10 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_list = ["milk", "eggs", "bacon"]
+friend_list = ["beer", "cookies", "apples", "apples"]
+combined_list_with_dupes = my_list + friend_list
+combined_list = combined_list_with_dupes.uniq
+
+puts combined_list.sort
