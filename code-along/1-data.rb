@@ -5,15 +5,50 @@
 # In Ruby, there are different *types* of data:
 
 # Numbers
+puts 5
+puts 2
+
 
 # Perform simple math with numbers
+puts 5 + 2
+puts 5 - 2 
+puts 5 * 2
+puts 5 / 2
+
+# Integer vs Float
+puts 5.0 / 2.0
+
+# Order of Operations
+puts (2 + 5) * 5
 
 # Strings
+puts "Hello, world!"
 
 # Combine strings together
+puts "Tacos are" + "awesome"
+puts "tacos" * 3
+puts "tacos" + 3.to_s
 
 # Variables
+x = 10
+y = 3
+puts x * y
+
+food = "tacos"
+quantity = 3
+puts food * quantity
 
 # Combine strings and variables
+first_name = "Boba"
+greeting = "Hello, #{first_name}" # String interpolation
+puts greeting
 
 # String manipulation
+puts "Hello".reverse
+puts "hello how are you".capitalize
+puts "hello".length
+
+creed = "this is the way"
+puts creed.upcase
+puts creed.downcase
+puts creed.swapcase

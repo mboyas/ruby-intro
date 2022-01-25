@@ -20,3 +20,16 @@
 # "i would like " + 5 + " tacos"
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
+
+# Set first die
+die_1 = rand(1..6)
+
+# Set second die
+die_2 = rand(1..6)
+
+# Set total
+total = die_1 + die_2
+
+puts "die_1 is #{die_1}"
+puts "die_2 is #{die_2}"
+puts "sum is #{total}"
